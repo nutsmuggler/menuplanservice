@@ -7,6 +7,6 @@ The service has two endpoints, where you can POST a JSON and then GET an HTML.
 - plan
 - shopping_list
 
-Be sure to make the directory writable, the or modify the script to write the JSON somewhere else.
+Be sure to make the directory writable, or modify the script to write the JSON somewhere else.
 
 If you're wondering what Menu Plan is, check the [Support website](http://menuplan.app).
