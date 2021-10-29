@@ -2,7 +2,7 @@
 A super simple implementation of a service taking advantage of the [Menu Plan](http://menuplan.app) webhoooks function.  
 Using [Sinatra](http://sinatrarb.com), my tool of choice for simple services.  
 
-The service has two endpoints, where you can **POST** a *JSON* and then **GET** an *HTML*.
+The service has two endpoints, where you can **POST** a *JSON* and then **GET** an *HTML*:
 
 - plan
 - shopping_list
