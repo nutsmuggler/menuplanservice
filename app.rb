@@ -95,4 +95,12 @@ get '/shopping_list' do
   rescue JSON::ParserError
     "JSON error"
   end
+  
+end
+
+delete '/plan' do
+  status 200
+  date = params['date']
+  meal = params['meal']
+  logger.info "Should delete #{meal} for #{date}"
 end
