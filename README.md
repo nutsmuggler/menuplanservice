@@ -2,12 +2,12 @@
 A super simple implementation of a service taking advantage of the [Menu Plan](http://menuplan.app) webhoooks function.  
 Using [Sinatra](http://sinatrarb.com), my tool of choice for simple services.  
 
-The service has two endpoints, where you can **POST** a *JSON* and then **GET** an *HTML*:
+The service has two endpoints, where you can `POST` a *JSON* and then `GET` an *HTML*:
 
 - plan
 - shopping_list
 
-You can also send a DELETE message to the plan endpoint, specifying a `meal` and `date` parameter.  
+You can also send a `DELETE` message to the plan endpoint, specifying a `meal` and `date` parameter.  
 Since this demo implementation doesn't manage data at the menu granularity, I am just logging the received parameters.  
 If you use a database you can use these parameters to delete a specific row.  
 
